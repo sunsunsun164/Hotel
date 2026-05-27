@@ -1,0 +1,216 @@
+{
+  "organizations": [
+    {
+      "id": 1010,
+      "name": "Организация 1",
+      "created_at": "2026-05-27 00:00:00",
+      "updated_at": "2026-05-27 00:00:00"
+    },
+    {
+      "id": 1011,
+      "name": "Организация 2",
+      "created_at": "2026-05-27 00:00:00",
+      "updated_at": "2026-05-27 00:00:00"
+    }
+  ],
+  "users": [
+    {
+      "id": 101,
+      "name": "Пользователь 1",
+      "email": "user1@example.com",
+      "email_verified_at": "2026-05-27 00:00:00",
+      "password": "$2y$10$N9qo8uLOickgx2ZMRZo5i.Ug9vKkVJ3f6QqgE8YJ7GQyK8l9z1gQ2",
+      "remember_token": null,
+      "created_at": "2026-05-27 00:00:00",
+      "updated_at": "2026-05-27 00:00:00",
+      "is_admin": false,
+      "phone": null,
+      "organization_id": 1010
+    },
+    {
+      "id": 102,
+      "name": "Пользователь 2",
+      "email": "user2@example.com",
+      "email_verified_at": "2026-05-27 00:00:00",
+      "password": "$2y$10$N9qo8uLOickgx2ZMRZo5i.Ug9vKkVJ3f6QqgE8YJ7GQyK8l9z1gQ2",
+      "remember_token": null,
+      "created_at": "2026-05-27 00:00:00",
+      "updated_at": "2026-05-27 00:00:00",
+      "is_admin": false,
+      "phone": null,
+      "organization_id": 1011
+    }
+  ],
+  "hotels": [
+    {
+      "id": 2010,
+      "name": "Отель A1",
+      "city": "Москва",
+      "country": "Россия",
+      "address": "Адрес A1",
+      "description": "Описание A1",
+      "stars": 4,
+      "price_per_night": 120.00,
+      "phone": null,
+      "email": null,
+      "image": null,
+      "is_available": true,
+      "created_at": "2026-05-27 00:00:00",
+      "updated_at": "2026-05-27 00:00:00",
+      "organization_id": 1010
+    },
+    {
+      "id": 2011,
+      "name": "Отель A2",
+      "city": "Москва",
+      "country": "Россия",
+      "address": "Адрес A2",
+      "description": "Описание A2",
+      "stars": 3,
+      "price_per_night": 90.00,
+      "phone": null,
+      "email": null,
+      "image": null,
+      "is_available": true,
+      "created_at": "2026-05-27 00:00:00",
+      "updated_at": "2026-05-27 00:00:00",
+      "organization_id": 1010
+    },
+    {
+      "id": 2012,
+      "name": "Отель A3",
+      "city": "Москва",
+      "country": "Россия",
+      "address": "Адрес A3",
+      "description": "Описание A3",
+      "stars": 5,
+      "price_per_night": 180.00,
+      "phone": null,
+      "email": null,
+      "image": null,
+      "is_available": true,
+      "created_at": "2026-05-27 00:00:00",
+      "updated_at": "2026-05-27 00:00:00",
+      "organization_id": 1010
+    },
+    {
+      "id": 2020,
+      "name": "Отель B1",
+      "city": "СПб",
+      "country": "Россия",
+      "address": "Адрес B1",
+      "description": "Описание B1",
+      "stars": 4,
+      "price_per_night": 130.00,
+      "phone": null,
+      "email": null,
+      "image": null,
+      "is_available": true,
+      "created_at": "2026-05-27 00:00:00",
+      "updated_at": "2026-05-27 00:00:00",
+      "organization_id": 1011
+    },
+    {
+      "id": 2021,
+      "name": "Отель B2",
+      "city": "СПб",
+      "country": "Россия",
+      "address": "Адрес B2",
+      "description": "Описание B2",
+      "stars": 3,
+      "price_per_night": 95.00,
+      "phone": null,
+      "email": null,
+      "image": null,
+      "is_available": true,
+      "created_at": "2026-05-27 00:00:00",
+      "updated_at": "2026-05-27 00:00:00",
+      "organization_id": 1011
+    },
+    {
+      "id": 2022,
+      "name": "Отель B3",
+      "city": "СПб",
+      "country": "Россия",
+      "address": "Адрес B3",
+      "description": "Описание B3",
+      "stars": 5,
+      "price_per_night": 210.00,
+      "phone": null,
+      "email": null,
+      "image": null,
+      "is_available": true,
+      "created_at": "2026-05-27 00:00:00",
+      "updated_at": "2026-05-27 00:00:00",
+      "organization_id": 1011
+    }
+  ],
+  "rooms": [
+    {
+      "id": 3010,
+      "hotel_id": 2010,
+      "room_number": "101",
+      "type": "standard",
+      "price_per_night": 120.00,
+      "capacity": 2,
+      "description": "Комната 101",
+      "is_available": true,
+      "image": null
+    },
+    {
+      "id": 3011,
+      "hotel_id": 2011,
+      "room_number": "201",
+      "type": "standard",
+      "price_per_night": 90.00,
+      "capacity": 2,
+      "description": "Комната 201",
+      "is_available": true,
+      "image": null
+    },
+    {
+      "id": 3012,
+      "hotel_id": 2012,
+      "room_number": "301",
+      "type": "deluxe",
+      "price_per_night": 180.00,
+      "capacity": 3,
+      "description": "Комната 301",
+      "is_available": true,
+      "image": null
+    },
+    {
+      "id": 3020,
+      "hotel_id": 2020,
+      "room_number": "101",
+      "type": "standard",
+      "price_per_night": 130.00,
+      "capacity": 2,
+      "description": "Комната 101",
+      "is_available": true,
+      "image": null
+    },
+    {
+      "id": 3021,
+      "hotel_id": 2021,
+      "room_number": "201",
+      "type": "standard",
+      "price_per_night": 95.00,
+      "capacity": 2,
+      "description": "Комната 201",
+      "is_available": true,
+      "image": null
+    },
+    {
+      "id": 3022,
+      "hotel_id": 2022,
+      "room_number": "301",
+      "type": "deluxe",
+      "price_per_night": 210.00,
+      "capacity": 3,
+      "description": "Комната 301",
+      "is_available": true,
+      "image": null
+    }
+  ]
+}
